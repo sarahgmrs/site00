@@ -5,35 +5,43 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Montserrat';
 }
+
 nav {
     background-color: #d4cece;
-    padding: 15px 20px 35px;
+    height: 100px;
+    width: 100vw; 
 }
 nav > a {
-    display: inline-block;
     padding: 30px;
     color: rgba(14, 14, 14, 0.877);
     text-decoration: none;
     max-width: 600px;
     text-transform: uppercase;
     size: 0.8em;
+    align-content: center;
+
 }
 nav > img {
-    block-size: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
     padding-right: 50%;
-
+    block-size: 50px;
+    align-content: center;
 }
 nav > a.button {
     background-color: black;
     color: white;
     padding: 15px 35px;
+ 
 }
 nav > a.button:hover {
     background-color: rgba(0, 0, 0, 0.685);
+    padding: 200px;
     transition-duration: 0.5s;
 }
 header > h1, p {
@@ -71,7 +79,7 @@ header > div h1 {
     background-color: #d4cece;
     color: rgba(0, 0, 0, 0.466);
     text-transform: uppercase;
-    width: 100px;
+    width: 150px;
     position: fixed;
     left: 50%;
     top: 100%;
